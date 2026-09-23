@@ -36,13 +36,12 @@ A UK-based online retailer specializing in all-occasion gift-ware recorded 541,9
 ## Project Structure
 
 ```
-├── data_cleaning.py          # Python cleaning pipeline (raw → cleaned CSV)
-├── online_retail_cleaned.csv # Cleaned, analysis-ready dataset
-├── powerbi_views.sql         # SQL views feeding the Power BI dashboard
-├── analysis_queries.sql      # 10 business-question SQL queries
-├── dashboard.pbix            # Power BI dashboard file
-├── dashboard_screenshot.png  # Dashboard preview image
-├── Online_Retail_Analysis_Report.md   # Full write-up with findings
+├── data_cleaning.ipynb          # Python cleaning pipeline (raw → cleaned CSV)
+├── Dataset_online_shopping(UK).ZIP # Both Raw & Cleaned dataset
+├── Business Problem Statement         
+├── All bussinessa query.sql      # 10 business-question SQL queries
+├── Customer Dashboard.pbix            # Power BI dashboard file
+├── Online_Retail_Analysis_Report   # Full write-up with findings
 └── README.md
 ```
 
@@ -62,8 +61,6 @@ Ten business questions answered in PostgreSQL, covering:
 8. Top 3 products per country
 9. Repeat buyers vs. non-repeat spend comparison
 10. Revenue by month (seasonality)
-
-Full queries in [`analysis_queries.sql`](./analysis_queries.sql). Key SQL techniques used: CTEs, window functions (`ROW_NUMBER() OVER PARTITION BY`), conditional aggregation (`COUNT(*) FILTER (WHERE ...)`), and date parsing (`TO_TIMESTAMP`/`TO_CHAR`).
 
 ---
 
