@@ -42,6 +42,7 @@ A UK-based online retailer specializing in all-occasion gift-ware recorded 541,9
 ├── All bussinessa query.sql      # 10 business-question SQL queries
 ├── Customer Dashboard.pbix            # Power BI dashboard file
 ├── Online_Retail_Analysis_Report   # Full write-up with findings
+├── Presentation of -Online retail customer behavior
 └── README.md
 ```
 
